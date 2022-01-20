@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    font-size: 16px;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    margin: 2rem 0;
+}
+
+p {
+    margin: 0 2rem;
+}
+
+h2,
+span {
+    font-size: 15px;
+}
+
+#countdown {
+    margin: 2.5rem 0.2rem 1rem;
+    color: #fff;
+    display: flex;
+}
+
+.date {
+    margin: 0 0.5rem;
+}
+
+
+#container {
+    background-image: url(../images/bg-image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: hsla(0, 0%, 100%, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    width: 100vw;
+    height: 100vh;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsla(0, 0%, 0%, 0.6);
+    padding: 1rem;
+    width: 75%;
+}
+
+#modalButton {
+    border-style: solid;
+    background: none;
+    border-width: 3px;
+    border-radius: 50px;
+    border-color: #90E0EF;
+    color: #90E0EF;
+    width: 200px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 900;
+    font-family: 'Raleway', sans-serif;
+    margin: 1rem 0;
+}
+
+#modalButton:hover {
+    background-color: #90E0EF;
+    color: hsla(0, 0%, 0%, 0.6);
+}
+
+
+@media screen and (min-width: 1200px) {
+    #content {
+        width: 50%;
+    }
+}
+
